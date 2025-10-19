@@ -1,12 +1,12 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Eylül Deniz</title>
+        <meta charset="UTF-8">  <title>Eylül Deniz</title>
         <style>
             body {
                 font-family: monospace;
                 align-items: center;
-                background-color: #7285b4;
+                background-color: #7285b4; /* Sets the light blue background color */
                 padding: 30px;
             }
             .outside-image {
@@ -14,13 +14,15 @@
                 height: auto;
                 display: block;
             }
+	/*For creating the image rows using Flexbox */
         .image-row {
-            display: flex;
+            display: flex; /* Enables horizontal arrangement of images */
             margin-top: 16px;
             margin-bottom: 16px;
         }
+/* Styling for ALL images inside the .box container */
     .box img {
-        width: 25%;
+        width: 25%; /* Makes each image take up 1/4 of the row space */
         height: auto;
         display: block;
     }
@@ -35,7 +37,7 @@
         font-size: x-large;
         font-weight: 500;
         padding-bottom: 4px;
-        border-bottom: 1px solid #fff;
+        border-bottom: 1px solid #fff; /* Creates the white underline */
     }
     .box h9 {
         font-size: xx-large;
@@ -85,11 +87,12 @@
       border-radius: 12px;
       padding: 21px;
       resize: none;
-      background-color: #25103c;
+      background-color: #25103c; /* Dark purple background of the content box */
       font-size: small;
+/* CRITICAL: Centers the box horizontally on the page */
       margin-left: auto;
       margin-right: auto;
-      color: floralwhite;
+      color: floralwhite; /* Default text color for everything inside the box */
       font-family: monospace;
      }           
      textarea::placeholder {
@@ -109,7 +112,7 @@
     </head>
 
     <body>    
-        <img src="star-removebg-preview.png" alt="Star" style="position: absolute; top: 25px; left: 25px; width: 125px; height: auto;">
+        <img src="images/star-removebg-preview.png" alt="Star" style="position: absolute; top: 25px; left: 25px; width: 125px; height: auto;">
 
         <h1>Welcome To My Website^^</h1>
         <p>This is my very first time using HTML!!! Hopefully you'll like it!!</p> 
@@ -122,24 +125,24 @@
             <h6>✯Music✯</h6>
             <h7>Music is a big part of my life. I enjoy listening pretty much all genres but rock is definitely my number 1. My favorite group is Kiss. One day i want to learn to play electric guitar</h7>
             <div class="image-row"> 
-                <img src="wmremove-transformed.jpeg" alt="Kiss Poster">
-                <img src="purple.jpeg" alt="Electric Guitar">
-                <img src="1.jpeg" alt="Destroyer">
+                <img src="images/wmremove-transformed.jpeg" alt="Kiss Poster">
+                <img src="images/purple.jpeg" alt="Electric Guitar">
+                <img src="images/1.jpeg" alt="Destroyer">
             </div>
             <h8>✯Reading✯</h8>
             <div class="image-row">
-                <img src="zweig.jpeg" alt="Chess">
-                <img src="Heart Of A Dog.jpeg" alt="Heart Of A Dog">
-                <img src="A_Room_of_Ones_Own-Virginia_Woolf-md.jpeg">
-                <img src="jojo_part_4.jpeg">
+                <img src="images/zweig.jpeg" alt="Chess">
+                <img src="images/Heart Of A Dog.jpeg" alt="Heart Of A Dog">
+                <img src="images/A_Room_of_Ones_Own-Virginia_Woolf-md.jpeg">
+                <img src="images/jojo_part_4.jpeg">
 
             </div>
             <h9>✯Gaming✯</h9>
             <div class="image-row">
-                <img src="Uncharted4logo.jpeg" alt="Uncharted 4">
-                <img src="hitman.jpeg" alt="hitman">
-                <img src="Ghost_of_Tsushima.jpeg" alt="Ghost of Tsushima">
-                <img src="images.jpeg" alt="Detroit Become Human">
+                <img src="images/Uncharted4logo.jpeg" alt="Uncharted 4">
+                <img src="images/hitman.jpeg" alt="hitman">
+                <img src="images/Ghost_of_Tsushima.jpeg" alt="Ghost of Tsushima">
+                <img src="images/images.jpeg" alt="Detroit Become Human">
             </div>
 
 
